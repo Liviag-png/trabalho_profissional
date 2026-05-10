@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA Biquíni de Fita | Especialista em Marquinha</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+     <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="top-actions-bar">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Faça sua busca...">
+                <i class="fas fa-search" onclick="realizarBusca()"></i>
+            </div>
+            <div class="user-icons">
+                <a href="#" onclick="abrirPerfil()"><i class="far fa-user"></i></a>
+                <a href="#" class="cart-wrapper">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="brand-section">
+            <img src="logo.png" alt="Soul Power" class="logo-img">
+            
+            <div class="slogan-container">
+                <h1 class="main-slogan">Realce sua marquinha e seu shape</h1>
+                <p class="sub-slogan"> Biquínis +  moda fitness que valorizam você</p>
+                <p class="info-text">📍 Adamantina - SP • Entrega rápida ou retirada no local</p>
+            </div>
+        </div>
+    </header>
+
+   <section class="categories-container">
+    <div class="category-item">
+        <a href="biquinis.html" class="category-link">
+            <div class="circle">
+                <img src="https://plus.unsplash.com/premium_photo-1725075087697-d4c17e63cf13?w=200" alt="Biquíni">
+            </div>
+            <p>Biquíni</p>
+        </a>
+        </div>
+
+        <div class="category-item">
+            <div class="circle"><img src="https://media.istockphoto.com/id/2210383500/pt/foto/a-young-woman-holding-a-dumbbell-stands-in-a-modern-gym-surrounded-by-sleek-equipment-and-a.webp?a=1&b=1&s=612x612&w=0&k=20&c=RVr2U9Oe-xsxqCNFOY-4deUEMfD-gH4eR0sZA65F0xE=" alt="Macacão"></div>
+            <p>Macacão</p>
+        </div>
+        <div class="category-item">
+            <div class="circle"><img src="https://images.unsplash.com/photo-1624612720999-583c74071d58?w=200" alt="Saída"></div>
+            <p>Saída de Praia</p>
+        </div>
+        <div class="category-item">
+            <div class="circle"><img src="https://images.unsplash.com/photo-1598890208253-b94e37923365?w=200" alt="Top"></div>
+            <p>Top</p>
+        </div>
+        <div class="category-item">
+            <div class="circle"><img src="https://images.unsplash.com/photo-1623746884939-c9f1701574a9?w=200" alt="Conjuntos"></div>
+            <p>Conjuntos</p>
+        </div>
+    </section>
+
+
+<section class="carrossel">
+
+  <div class="slide ativo">
+    <img src="https://images.unsplash.com/photo-1726125533775-60922c8a3879?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGltYWdlbSUyMGRlJTIwcm91cGFzJTIwZGUlMjBwcmFpYXxlbnwwfHwwfHx8MA%3D%3D">
+    <div class="overlay">
+      <h2>Nova coleção verão ☀️</h2>
+      <p>Biquínis que valorizam sua marquinha</p>
+
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="https://plus.unsplash.com/premium_photo-1733328015522-c497d190f74b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cm91cGFzJTIwZGUlMjBhY2FkZW1pYXxlbnwwfHwwfHx8MA%3D%3D">
+    <div class="overlay">
+      <h2>Moda Fitness 💪</h2>
+      <p>Looks de academia que valorizam seu shape</p>
+    
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="https://images.unsplash.com/photo-1611257648163-4624042140b2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <div class="overlay">
+      <h2>Conforto & Estilo ✨</h2>
+      <p>Peças perfeitas pro seu dia a dia</p>
+     
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <ul class="quick-links">
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Busca</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Filtros</a></li>
+            </ul>
+            <div class="seal-container">
+              
+           
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Fale com a vendedora</h3>
+            <p><i class="fab fa-whatsapp"></i> Soul Power</p>
+            
+            <h3>Atendimento ao cliente</h3>
+            <p><i class="fas fa-phone-alt"></i>(18) 996123703</p>
+            <p><i class="far fa-envelope"></i>larimesquita2709@gmail.com  </p>
+            <p><i class="fas fa-globe"></i> www.sabiquinidefita.com.br</p>
+             
+
+            
+            <h3>Horário de atendimento</h3>
+            <p><i class="far fa-clock"></i><br>Das 09:00h a 18:00h</p>
+            <button  id="abrirHorarios" class="btn-horarios"> Ver todos os horários </button>
+        </div>
+
+          <div class="footer-col payments-social">
+    <h3>Formas de pagamento aceitas</h3>
+    <div class="payment-icons">
+        <i class="fab fa-cc-visa" title="Visa"></i>
+        <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+        <span class="card-brand">Hipercard</span>
+        <i class="fab fa-pix" title="Pix"></i>
+    </div>
+
+    <h3 class="mt-20">Nos siga nas redes sociais</h3>
+    <div class="social-footer">
+        <a href="https://www.instagram.com/soulpoower?igsh=MWlqazZ5dGJub3V5Zw%3D%3D&utm_source=qrL" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</div>
+   
+
+<div id="modalHorario" class="modal-overlay">
+    <div class="modal-content">
+        <h2>Horário de funcionamento</h2>
+        
+        <ul class="lista-horarios">
+            <li><span>Domingo</span> <span>Fechado</span></li>
+            <li><span>Segunda</span> 09:00h ás 18:00h</li>
+            <li><span>Terça</span> <span>09:00h ás 18:00h</span></li>
+            <li><span>Quarta</span> <span>09:00h ás 18:00h</span></li>
+            <li><span>Quinta</span> <span>09:00h ás 18:00h</span></li>
+            <li><span>Sexta</span> <span>09:00h ás 18:00h</li>
+            <li><span>Sábado</span> <span>09:00h ás 14:00h   </span></li>
+        </ul>
+
+        <button id="fecharHorarios" class="btn-entendi">Entendi</button>
+    </div>
+</div>
+
+
+
+
+
+
+  <!-- SEÇÃO ESCONDIDA -->
+<section id="horarios-semana" class="secao-horarios">
+  <h2>Horários da Semana</h2>
+
+  
+
+
+    <a href="https://wa.me/5581994880182" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function realizarBusca() {
+            const termo = document.getElementById('searchInput').value;
+            if (termo === "") {
+                alert("Por favor, digite algo para buscar!");
+            } else {
+                alert("Você está buscando por: " + termo);
+            }
+        }
+
+        document.getElementById('searchInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') realizarBusca();
+        });
+
+        function abrirPerfil() {
+            alert("Abrindo área do cliente...");
+        }
+
+
+
+
+
+let slideIndex = 0;
+const slides = document.querySelectorAll(".slide");
+
+function mostrarSlides() {
+    slides.forEach(s => s.classList.remove("ativo"));
+    slideIndex++;
+
+    if (slideIndex >= slides.length) {
+        slideIndex = 0;
+    }
+
+    slides[slideIndex].classList.add("ativo");
+}
+
+setInterval(mostrarSlides, 3000);
+
+
+
+
+
+const modal = document.getElementById('modalHorario');
+const btnAbrir = document.getElementById('abrirHorarios');
+const btnFechar = document.getElementById('fecharHorarios');
+
+// Abre o modal ao clicar no botão
+btnAbrir.onclick = function() {
+    modal.style.display = 'flex';
+}
+
+// Fecha o modal ao clicar no botão "Entendi"
+btnFechar.onclick = function() {
+    modal.style.display = 'none';
+}
+
+// Fecha se o usuário clicar fora da caixa branca
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
+}
+
+
+
+    </script>
+</body>
+</html>
